@@ -6,3 +6,8 @@ largura=float(input('Quala largura da parede em metros? '))
 area=altura*largura
 result=area/2
 print('A quantidade de tinta necessária é: {:.0f} litros'.format(result))
+# Outro exercicio a baixo
+# Tabuada
+num=int(input('Digite um número: '))
+for i in range(11):
+    print('Seu resultado é: {} X {} = {}'.format(num,i,num*i))
