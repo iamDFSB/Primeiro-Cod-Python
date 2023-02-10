@@ -14,9 +14,4 @@ print('-'*20)
 num=int(input('Digite um número: '))
 for i in range(11):
     print('Seu resultado é: {} X {} = {}'.format(num,i,num*i))
-
-# Desconto de compra 
-valorSemDesconto=float(input('Digite o valor sem desconto: '))
-valorDoDesconto=valorSemDesconto*(5/100)
-print('O valor do desconto é : {}'.format(valorDoDesconto))
-print('O valor para pagar com desconto é: {} '.format(valorSemDesconto-valorDoDesconto))
+print('-'*20)
